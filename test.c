@@ -8,7 +8,7 @@ int main() {
 
     strcpy(str, "This is a test");
 
-    printf("%s    Size= %lu\n", str, sizeof(str));
+    printf("\n%s    Size= %lu\n", str, sizeof(str));
 
     return 0;
 }
