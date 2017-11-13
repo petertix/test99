@@ -17,9 +17,10 @@
     "url": "https://github.com/petertix/test99/issues"
   },
   "homepage": "https://github.com/petertix/test99#readme",
-  "dependencies": {},
+  "dependencies": {
+    "babel": "^6.1.10"
+  },
   "devDependencies": {
-    "babel": "^5.0.0",
     "eslint": "^4.4.0"
   }
 }
