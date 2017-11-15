@@ -1,3 +1,3 @@
 module.exports = function(width, height) {
-  return width * height*5;
+  return width * height*20;
 };
