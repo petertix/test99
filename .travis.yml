@@ -1,8 +1,11 @@
 language: node_js
 node_js:
-- 6
+- 8
 cache: yarn
 before_script:
 - yarn global add codecov
 script:
 - yarn run eslint
+- yarn run cover -- --runInBand
+after_success:
+- codecov
