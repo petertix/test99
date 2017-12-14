@@ -11,6 +11,7 @@ int main() {
     strncpy(str2, "This is a test", sizeof("This is a test"));
 
     printf("\n%s    Size= %lu\n", str, sizeof(str));
+    printf("\n%s    Size= %lu\n", str2, sizeof(str));
 
     return 0;
 }
