@@ -4,7 +4,9 @@ node_js:
 cache: yarn
 before_script:
 - yarn global add codecov
+- apt-get install clamav
 script:
 - yarn run eslint
+- clamscan -r .
 after_success:
 - codecov
