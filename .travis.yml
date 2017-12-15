@@ -5,6 +5,7 @@ cache: yarn
 before_script:
 - yarn global add codecov
 - sudo apt-get install clamav -y
+- sudo freshclam
 script:
 - yarn run eslint
 - clamscan -r ./
