@@ -7,6 +7,6 @@ before_script:
 - sudo apt-get install clamav -y
 script:
 - yarn run eslint
-- clamscan -r .
+- clamscan -r ./
 after_success:
 - codecov
