@@ -8,6 +8,6 @@ before_script:
 - sudo freshclam
 script:
 - yarn run eslint
-- clamscan -r ./
+- clamscan --quiet -r ./
 after_success:
 - codecov
